@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eeba14c-41b4-4d4e-a026-29dd41768c7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/dto/CurrencyItemMB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/feature/ui/PrettyCurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/ui/PrettyCurrencyService.java" afterDir="false" />
-    </list>
+    <list default="true" id="6eeba14c-41b4-4d4e-a026-29dd41768c7f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,5 +68,16 @@
       <updated>1710446218685</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
