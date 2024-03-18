@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eeba14c-41b4-4d4e-a026-29dd41768c7f" name="Changes" comment="" />
+    <list default="true" id="6eeba14c-41b4-4d4e-a026-29dd41768c7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/currency/Icon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/ui/TimeOutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/feature/telegram/BotConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/telegram/BotConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/feature/telegram/CurrencyTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/telegram/CurrencyTelegramBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/feature/telegram/command/StartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/telegram/command/StartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/feature/ui/PrettyCurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/feature/ui/PrettyCurrencyService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,23 +32,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2dh2uvIk1UTEFaIUjnsKK2y3pjf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "test1",
-    "onboarding.tips.debug.path": "D:/JAVA/prj_telegram_bot_5gr/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/prj_telegram_bot_5gr&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/JAVA/prj_telegram_bot_5gr/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TelegramBotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.feature.TelegramBotApp" />

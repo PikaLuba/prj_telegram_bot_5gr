@@ -1,5 +1,6 @@
 package org.example.feature.telegram.command;
 
+import org.example.feature.currency.Icon;
 import org.telegram.telegrambots.extensions.bots.commandbot.commands.BotCommand;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Chat;
@@ -28,14 +29,14 @@ public class StartCommand extends BotCommand {
                          Chat chat,
                          String[] arguments) {
         //  System.out.println("Start pressed");
-        String text = "Добро пожаловать. Этот бот поможет отслеживать актуальные курсы валют.";
+        String text = "Ласкаво просимо. Цей бот допоможе відслідковувати актуальні курси валют.";
         SendMessage message = new SendMessage();
         message.setText(text);
         message.setChatId(Long.toString(chat.getId()));
 
         List<InlineKeyboardButton> buttons = Stream.of(Currency.USD, Currency.EUR)
                 .map(Enum :: name)
-                .map(it -> InlineKeyboardButton.builder().text(it)
+                .map(it -> InlineKeyboardButton.builder().text(it)  // Icon.CHECK.get() +
                         .callbackData(it).build())
                 .collect(Collectors.toList());
 
