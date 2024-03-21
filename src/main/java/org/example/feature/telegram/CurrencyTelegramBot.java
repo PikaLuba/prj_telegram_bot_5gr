@@ -64,6 +64,7 @@ public class CurrencyTelegramBot extends TelegramLongPollingCommandBot {
 
                 if (i != 0) {
                     currencyRateBuy = currencyService.getRateBuy(currency, i);
+                  //  System.out.println(currencyRateBuy);
                 } else {
                     //////
                     long chatId1 = update.getCallbackQuery().getMessage().getChatId();
